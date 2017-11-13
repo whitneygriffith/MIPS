@@ -1,7 +1,8 @@
 #Variables for the program
 .data
-	#variable to hold string that user inputs
-	input1: .asciiz ""
+	
+	invalidMessage: .asciiz "Invalid hexadecimal number.s"
+	userInput: .space 8 #variable to hold string that user inputs
 
 .text
 
